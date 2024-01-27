@@ -1,0 +1,152 @@
+.torrent {
+  background-image: url(../img/fon_2.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  height: 120vh;
+  width: 100%;
+}
+.btn-conteiner {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 7rem 0;
+}
+.registration {
+  margin: auto;
+}
+.registration-btn {
+  width: 18rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  padding: 1.1rem;
+  text-align: center;
+  z-index: 1;
+  text-transform: uppercase;
+  font-size: 1.3rem;
+  font-family: Geologica;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 2rem;
+}
+.title {
+  margin: auto;
+  margin-bottom: 3rem;
+}
+.title p {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 2rem;
+  font-family: Geologica;
+  text-align: center;
+  color: #fff;
+  position: relative;
+  width: 100%;
+}
+.title img {
+  text-align: center;
+  width: 100%;
+}
+
+.wrapper-torrent-btn {
+  display: flex;
+  justify-content: center;
+}
+.left-torrent-btn {
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.right-torrent-btn {
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.torrent-btn-centr {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.torrent-btn {
+  width: 18rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  height: 4rem;
+  text-align: center;
+  z-index: 1;
+  text-transform: uppercase;
+  font-size: 1.1rem;
+  font-family: Geologica;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 2rem;
+}
+
+.btn-tor::before {
+  display: block;
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  background-image: url(../img/btn-tor-1.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.btn-tor:hover::before {
+  display: block;
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  background-image: url(../img/btn-tor-2.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  transition: 0.3s;
+}
+.btn-tor:active::before {
+  display: block;
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  background-image: url(../img/btn-tor-3.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  transition: 0.3s;
+}
+.torrent-btn:active {
+  color: #331f52;
+}

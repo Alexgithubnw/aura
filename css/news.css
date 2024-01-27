@@ -1,0 +1,108 @@
+.news {
+  background-image: url(../img/fon_3.png);
+  background-repeat: no-repeat;
+  background-position: top center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  /* height: 170vh; */
+  background-attachment: sticky;
+  width: 100%;
+}
+.news-content {
+  padding: 7rem 0;
+}
+.news-title {
+  margin: auto;
+  text-align: center;
+  width: 50%;
+  margin-bottom: 1rem;
+}
+.news-title p {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 2rem;
+  font-family: Geologica;
+  text-align: center;
+  color: #fff;
+  position: relative;
+  width: 100%;
+}
+.news-title img {
+  text-align: center;
+  width: 50%;
+}
+.card-wrapper {
+  display: flex;
+  justify-content: center;
+}
+.card {
+  width: 25%;
+  margin-right: 2rem;
+}
+.card:last-child {
+  margin-right: 0;
+}
+.cart-content {
+  width: 100%;
+  border-radius: 2rem;
+  overflow: hidden;
+  stroke-width: 2px;
+  stroke: #3b0d87;
+  box-shadow: -5px -5px 5px rgba(181, 157, 188, 0.5),
+    3px 3px 3px rgba(181, 157, 188, 0.5);
+  backdrop-filter: blur(10px);
+  margin-bottom: 2rem;
+}
+.cart-content img {
+  width: 100%;
+  height: 100%;
+  border-radius: 1rem;
+}
+.card-text {
+  padding: 1rem 1rem;
+  border-radius: 1rem;
+  box-shadow: -5px -5px 5px rgba(181, 157, 188, 0.5),
+    3px 3px 3px rgba(181, 157, 188, 0.5);
+}
+.card-text-p {
+  color: #fff;
+  font-family: Inter;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: -0.72px;
+  text-transform: capitalize;
+}
+.card-title {
+  color: #fff;
+  text-align: center;
+  font-family: Geologica;
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: 400;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+}
+.card-btn {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  padding: 1.2rem;
+  text-align: center;
+  z-index: 1;
+  text-transform: uppercase;
+  font-size: 1.3rem;
+  font-family: Geologica;
+  text-align: center;
+  color: #fff;
+  margin-bottom: 2rem;
+}
+.card-btn-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

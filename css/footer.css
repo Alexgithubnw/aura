@@ -1,0 +1,84 @@
+.wrapper-content {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-left {
+  width: 49%;
+}
+.footer-left p {
+  color: #fff;
+  font-family: Geologica;
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 400;
+
+  text-transform: capitalize;
+}
+.footer-title {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-title a {
+  color: #fff;
+  text-align: center;
+  font-family: Geologica;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 100;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+  cursor: pointer;
+}
+.footer-title p {
+  color: #fff;
+  text-align: center;
+  font-family: Geologica;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 100;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+.footer-right {
+  width: 30%;
+  text-align: center;
+}
+.soc-title {
+  text-align: center;
+  color: #fff;
+  text-align: center;
+  font-family: Geologica;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 100;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+.footer-soc {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+.fa-brands {
+  color: #fff;
+}
+
+.soc-link {
+  position: relative;
+  text-align: center;
+  margin-right: 1rem;
+  width: 5rem;
+  height: 5rem;
+}
+.soc-link:last-child {
+  margin-right: 0;
+}
+.soc-link i {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 45%;
+  font-size: 2rem;
+}
